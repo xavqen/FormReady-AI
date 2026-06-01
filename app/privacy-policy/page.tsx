@@ -1,0 +1,5 @@
+import { PageHero } from "@/components/page-hero";
+import { SeoSection } from "@/components/seo-section";
+import { buildMetadata } from "@/lib/seo";
+export const metadata = buildMetadata("Privacy Policy", "Privacy policy for FormReady AI.", "/privacy-policy");
+export default function Page() { return <><PageHero title="Privacy Policy" description="How FormReady AI handles files and user privacy." /><SeoSection title="Privacy-first file processing"><p>FormReady AI is designed to process photos, signatures and PDFs inside the browser wherever possible. This means files do not need to be uploaded to a server for the main tools.</p><p>If server processing is added later for premium features, files should be used only for the requested task and deleted automatically after processing. Analytics and ads may use cookies according to their own policies once enabled.</p><p>Users should avoid uploading extremely sensitive documents unless necessary and should verify all output before submitting to official portals.</p></SeoSection></>; }
