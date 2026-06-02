@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: { default: `${siteConfig.name} - Photo, Signature & PDF Resize`, template: `%s | ${siteConfig.name}` },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
-  icons: [{ rel: "icon", url: "/favicon.svg" }]
+  icons: [{ rel: "icon", url: "/favicon.svg" }],
   google: 't6vNWWPIElU-JxUI1qO1MUARshpmRQGlZrRC2oVNFqU',
 };
 
