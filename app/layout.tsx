@@ -12,7 +12,10 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   icons: [{ rel: "icon", url: "/favicon.svg" }],
-  google: 't6vNWWPIElU-JxUI1qO1MUARshpmRQGlZrRC2oVNFqU',
+  verification: {
+    // Only paste the string inside the content="..." attribute
+    google: 't6vNWWPIElU-JxUI1qO1MUARshpmRQGlZrRC2oVNFqU', 
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
